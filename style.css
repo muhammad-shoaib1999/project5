@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 160, 160);
+    border: 6px solid red;
+}
+
+
+
+
+.accordion{
+    margin: 40px 0 0px 20px;
+    width: 400px;
+    border: 1px solid gray;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.acc_head{
+    padding: 12px;
+    border-bottom: 1px solid gray;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+
+.acc_body{
+    padding: 0 12px;
+    height: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.active{
+    height: 120px;
+}
+
+.iconShow{
+    display: none;
+}
